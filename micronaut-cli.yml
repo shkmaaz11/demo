@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.example
+testFramework: junit
+sourceLanguage: java
+buildTool: maven
+features: [annotation-api, app-name, assertj, camunda, graphql, h2, http-client, java, java-application, jib, junit, kafka, kafka-streams, kubernetes, logback, lombok, management, maven, mqtt, netty-server, rabbitmq, readme, security-annotations, security-jwt, shade, spring, spring-boot, yaml]

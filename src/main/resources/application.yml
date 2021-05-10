@@ -1,0 +1,17 @@
+micronaut:
+  application:
+    name: demo
+  security:
+    authentication: bearer
+    token:
+      jwt:
+        signatures:
+          secret:
+            generator:
+              secret: '"${JWT_GENERATOR_SIGNATURE_SECRET:pleaseChangeThisSecretForANewOne}"'
+rabbitmq.uri: amqp://localhost:5672
+kafka.bootstrap.servers: localhost:9092
+mqtt:
+  client:
+    server-uri: tcp://localhost:1883
+    client-id: ${random.uuid}
